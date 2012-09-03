@@ -1,6 +1,6 @@
 git node[:deliver][:dir] do
   repository node[:deliver][:repository]
-  reference "#{node[:deliver][:version]}"
+  reference node[:deliver][:version]
   action :sync
 end
 
