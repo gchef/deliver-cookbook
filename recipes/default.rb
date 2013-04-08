@@ -10,7 +10,7 @@ if install
   end
 else
   directory node[:deliver][:dir] do
-    recursive :true
+    recursive true
     action :delete
   end
 end

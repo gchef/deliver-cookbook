@@ -1,5 +1,4 @@
-Sets up [deliver] [1] on Linux environments, think continuous delivery CI
-environments.
+Sets up [deliver][1] on Linux environments, think continuous delivery CI environments.
 
 ### Requires
 
